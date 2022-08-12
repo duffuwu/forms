@@ -1,22 +1,139 @@
-@import url('https://fonts.googleapis.com/css2?family=Maven+Pro');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;900&family=Roboto&display=swap');
 
 /* font-family: 'Maven Pro', sans-serif; */
 
 body {
     background-color: lightgray;
+    margin-top: 20px;
+    margin-bottom: 0px;
 }
 
 .main {
-    background-color: white;
-    width: 500px;
+    width: 1100px;
+    background-color: #f8f8ff;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
+    height: 100%;
+    padding-bottom: 0px;
 }
 
 .left {
+    position: relative;
+}
+
+
+div.logo-container {
+    padding-left: 50px;
+    padding-right: 50px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.logo {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Maven Pro', verdana,sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    color: aliceblue;
     
 }
 
 
+img.bg {
+    height: 800px;
+    width: 400px;
+    object-position: -370px;
+    object-fit: cover;
+    position: relative;
+    border: 1px solid black;
+
+}
+
+/* 
 .right {
-    
+    font-size: 20px;
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+    --left-padding: 50px;
 }
+
+.top-text {
+    margin-top: 80px;
+    padding-right: 50px;
+    padding-left: var(--left-padding);
+}
+
+
+.center-text {
+    text-align: center;
+}
+
+.mid-card {
+    margin-top: 40px;
+    height: 300px;
+    background-color: white;
+    padding-left: var(--left-padding);
+    padding-right: 50px;
+    box-shadow: 0px 6px 3px -1px rgba(20, 20, 20, 0.1);
+    border-top: 1px solid rgba(224, 224, 224, 0.3);
+}
+
+.form-text {
+    padding-top: 20px;
+    padding-bottom: 14px;
+    font-size: 22px;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+}
+
+input {
+    display: block;
+    margin-top: 4px;
+    height: 20px;
+    width: 220px;
+}
+
+.form-row {
+    font-size: 14px;
+    display: flex;
+    gap: 60px;
+}
+
+.submit {
+    margin-top: 20px;
+    margin-left: var(--left-padding);
+    width: 200px;
+    height: 38px;
+    border-radius: 6px;
+    border: 1px;
+    background-color: rgb(100, 136, 70);
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    box-shadow: 2px 2px 3px -1px rgba(20, 20, 20, 0.3);
+}
+
+
+.already-have-account {
+    font-size: 14px;
+    margin-top: 20px;
+    <a href="google.com">
+        Log in
+    </span>
+.log-in {
+
+} */

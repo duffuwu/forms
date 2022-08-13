@@ -85,6 +85,10 @@ img.bg {
     font-weight: 1000;
 }
 
+.description {
+    padding-left: 54px;
+}
+
 .mid-card {
     margin-top: 40px;
     height: 300px;

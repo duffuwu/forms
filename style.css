@@ -52,20 +52,21 @@ div.logo-container {
 
 
 img.bg {
+    display: block; /* removes whitespace below image */
     height: 800px;
     width: 400px;
     object-position: -370px;
     object-fit: cover;
     position: relative;
-    border: 1px solid black;
+
 
 }
 
-/* 
+
 .right {
-    font-size: 20px;
+    font-size: 18px;
     font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
-    --left-padding: 50px;
+    --left-padding: 30px;
 }
 
 .top-text {
@@ -74,9 +75,14 @@ img.bg {
     padding-left: var(--left-padding);
 }
 
-
 .center-text {
     text-align: center;
+}
+
+.cool-ducky {
+    font-size: 36px;
+    margin-top: 10px;
+    font-weight: 1000;
 }
 
 .mid-card {
@@ -105,6 +111,31 @@ input {
     margin-top: 4px;
     height: 20px;
     width: 220px;
+    border: 1px solid #E5E7EB;
+    border-radius: 2px;
+}
+
+input:invalid {
+    box-shadow: 0 0 5px 1px red;
+}
+
+.error {
+    font-size: 12px;
+    margin-left: 6px;
+    color: red;
+}
+
+input:focus {
+    box-shadow: 2px 2px 3px -1px rgba(20, 20, 20, 1);
+    outline: 1px solid rgb(0, 132, 255);
+}
+
+.first-error,
+.last-error,
+.email-error,
+.phone-error,
+.password-error {
+    opacity: 0;
 }
 
 .form-row {
@@ -120,7 +151,7 @@ input {
     height: 38px;
     border-radius: 6px;
     border: 1px;
-    background-color: rgb(100, 136, 70);
+    background-color: #596D48;
     font-size: 16px;
     color: white;
     font-weight: 600;
@@ -129,11 +160,13 @@ input {
 
 
 .already-have-account {
+    margin-left: var(--left-padding);
     font-size: 14px;
     margin-top: 20px;
-    <a href="google.com">
-        Log in
-    </span>
-.log-in {
+}
 
-} */
+a {
+    color: #596D48;
+    font-weight: 600;
+    text-decoration: none;
+}

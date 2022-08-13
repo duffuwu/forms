@@ -20,14 +20,9 @@
             <div class="top-text">
                 <div class="center-text">
                     This is just a cool form brought to you by our friends at
-                </div>
-                <br>
-                <div class="center-text">
-                    COOL DUCKY
-                </div>
-                <br>
-                <div class="center-text">
-                    Just a pretty kewl ducc
+                    <div class="cool-ducky">
+                        COOL DUCKY
+                    </div>
                 </div>
                 <br>
                 <div>
@@ -42,26 +37,31 @@
             <form action="" method="" id="form">
                 <div class="form-row">
                     <label>First name
-                        <input name="first-name" placeholder="Cool">
+                        <input name="first-name" placeholder="Cool" required>
+                        <div class="error first-error">placecholder</div>
                     </label>
                     <label>Last name
-                        <input name="last-name" placeholder="Ducky">
+                        <input name="last-name" placeholder="Ducky" required>
+                        <div class="error last-error">placecholder</div>
                     </label> 
                 </div>
                 <div class="form-row">
                     <label>Email
-                        <input name="email" placeholder="example@email.com">
+                        <input type="email" name="email" placeholder="example@email.com" required>
+                        <div class="error email-error">placecholder</div>
                     </label>
                     <label>Phone Number
-                        <input name="phone-number">
+                        <input type="tel" name="phone-number" required>
+                        <div class="error phone-error">placecholder</div>
                     </label> 
                 </div>
                 <div class="form-row">
                     <label>Password
-                        <input name="password">
+                        <input name="password" required>
+                        <div class="error password-error">placecholder</div>
                     </label>
                     <label>Confirm Password
-                        <input name="confirm-password">
+                        <input name="confirm-password" required>
                     </label> 
                 </div>
             </form>                              
